@@ -64,7 +64,7 @@ def mhd_HeaderFileWriter(sizeX,volumeSizeY,volumeSizeZ,nameFile):
     mhdHeadStr ="ObjectType = Image\nNDims = 3\nBinaryData = True\nBinaryDataByteOrderMSB = False\nCompressedData = False\n"
     mhdHeadStr =mhdHeadStr + "ElementType = MET_UCHAR\nAnatomicalOrientation = LPI\nTransformMatrix = -1 0 0 0 -1 0 0 0 1\n"
     mhdHeadStr =mhdHeadStr +"CenterOfRotation = 0 0 0\nElementSpacing = 0.095 0.095 0.095\nDimSize = "
-    t = open(+str(nameFile)+".mhd", 'wb')
+    t = open(str(nameFile)+".mhd", 'wb')
     t.write(mhdHeadStr)
     t.write(str(sizeX)+" "+str(volumeSizeY)+" "+str(volumeSizeZ))
     t.write("\nElementDataFile = ")
