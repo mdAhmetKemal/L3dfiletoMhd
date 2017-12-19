@@ -8,4 +8,4 @@ This tool convert data with 360 and 180 angle like
 	#Necessery 
 	1-Python 2.7
 	2-numpy
-![alt text](https://github.com/mdAhmetKemal/BodyPart3dModelMerge/raw/master/Ads%C4%B1z3.png)
+![alt text](https://github.com/mdAhmetKemal/L3dfiletoMhd/blob/master/slicer3d.jpg)
