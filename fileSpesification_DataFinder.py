@@ -5,7 +5,7 @@ import zlib,sys
 from  rawDatato3dVolume import *
 
 def fileSpesification_DataFinder(L3DfileName):
-    with open("l3d/"+L3DfileName, 'rb') as file:
+    with open(L3DfileName, 'rb') as file:
         file.seek(79)
         temp_Loadedfile = file.read()
         file.close()
