@@ -5,7 +5,13 @@ MHD file is mostly using for standart volumetric 3d data.You can use this file f
 medical imaging.
 This tool convert data with 360 and 180 angle like
 8838 and 8848 prob data
+
 	#Necessery 
 	1-Python 2.7
 	2-numpy
+	
+	#Using 
+	"example.l3d" file and main.py must be same folder
+	write filename in main.py function and start ,a few seconds done 
+	
 ![alt text](https://github.com/mdAhmetKemal/L3dfiletoMhd/blob/master/slicer3d.jpg)
