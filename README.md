@@ -13,5 +13,5 @@ This tool convert data with 360 and 180 angle like
 	#Using 
 	"example.l3d" file and main.py must be same folder
 	write filename in main.py function and start ,a few seconds done 
-	![alt text](https://github.com/mdAhmetKemal/L3dfiletoMhd/raw/master/using.jpg) 
+![alt text](https://github.com/mdAhmetKemal/L3dfiletoMhd/raw/master/using.jpg) 
 ![alt text](https://github.com/mdAhmetKemal/L3dfiletoMhd/blob/master/slicer3d.jpg)
